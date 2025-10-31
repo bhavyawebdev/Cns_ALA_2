@@ -1,0 +1,58 @@
+
+body {
+  position: relative;
+  background: radial-gradient(circle at top, #0f172a, #000);
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #cbd5e1;
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  color: #5eead4;
+  text-shadow: 0 0 10px #5eead4;
+}
+
+/* Button Styles */
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #14b8a6, #06b6d4);
+  color: #0f172a;
+  box-shadow: 0 0 20px rgba(20,184,166,0.5);
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(20,184,166,0.8);
+}
+
+.btn-secondary {
+  border: 2px solid #5eead4;
+  color: #5eead4;
+}
+.btn-secondary:hover {
+  background: #5eead4;
+  color: #0f172a;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(94,234,212,0.6);
+}
+
+/* Canvas Background */
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  pointer-events: none;
+}
